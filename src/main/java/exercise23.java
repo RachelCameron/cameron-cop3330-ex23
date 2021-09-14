@@ -9,10 +9,10 @@ public class exercise23 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         String response;
-        System.out.println("Is the car silent when you turn the key? ");
+        System.out.println("Is the car silent when you turn the key?");
         response = input.next();
         if (response.equals("y")){
-            System.out.println("Are the battery terminals corroded? ");
+            System.out.println("Are the battery terminals corroded?");
             response = input.next();
             if (response.equals ("y")){
                 System.out.println("Clean terminals and try starting again.");
@@ -20,12 +20,12 @@ public class exercise23 {
                 System.out.println("Replace cables and try again.");
             }
         }else{
-            System.out.println("Does the car make a clicking noise? ");
+            System.out.println("Does the car make a clicking noise?");
             response = input.next();
             if (response.equals("y")){
                 System.out.println("Replace the battery.");
             }else{
-                System.out.println("Does the car crank up but fail to start? ");
+                System.out.println("Does the car crank up but fail to start?");
                 response = input.next();
                 if (response.equals("y")){
                     System.out.println("Check spark plug connections.");
@@ -38,7 +38,7 @@ public class exercise23 {
                         if (response.equals("y")){
                             System.out.println("Get it in for service.");
                         }else{
-                            System.out.println("Check to ensure the choke is opening and closing. ");
+                            System.out.println("Check to ensure the choke is opening and closing.");
                         }
                     }else{
                         System.out.println("This should not be possible.");
